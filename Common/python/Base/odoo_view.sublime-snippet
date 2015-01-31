@@ -1,0 +1,47 @@
+<snippet>
+	<content><![CDATA[
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+		<record id="$1_view_filter" model="ir.ui.view">
+			<field name="name">${2:$1} Vista Busqueda</field>
+			<field name="model">$3</field>
+			<field name="arch" type="xml">
+				<search string="Buscar $2">
+					
+				</search>
+			</field>
+		</record>
+		<record id="$1_view_tree" model="ir.ui.view">
+			<field name="name">$2 Vista Lista</field>
+			<field name="model">$3</field>
+			<field name="arch" type="xml">
+				<tree string="Lista $2">
+					
+				</tree>
+			</field>
+		</record>
+		<record id="$1_view_form_" model="ir.ui.view">
+			<field name="name">$2 Vista Formulario</field>
+			<field name="model">$3</field>
+			<field name="arch" type="xml">
+				<form string="$2" version="7.0">
+					
+				</form>
+			</field>
+		</record>
+		<record id="$1_action" model="ir.actions.act_window">
+			<field name="name">$4</field>
+			<field name="res_model">$3</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+		<menuitem action="$1_action" id="$1_menu" name="$4" parent="$5"/>
+	</data>
+</openerp>
+]]></content>
+
+	<tabTrigger>odoo_view</tabTrigger>
+	<!--<scope>source.xml</scope>-->
+	<description>Plantilla Básica para Interfaz Grafica Odoo </description>
+</snippet>

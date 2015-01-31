@@ -1,0 +1,10 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+http://www.storegud.com/
+]]></content>
+    <tabTrigger>website</tabTrigger>
+    <scope>source.python</scope>
+    <description>OpenERP Italia Website</description>
+</snippet>

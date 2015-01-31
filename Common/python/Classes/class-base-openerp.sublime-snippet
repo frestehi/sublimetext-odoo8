@@ -1,0 +1,12 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[class ${1:ClassName}(models.Model):
+        _name = '${2:openerp.model}'
+
+        ${3:namel} = fields.Char('$4', size=${5:64}, required=${6:False}, readonly=${7:False})$0]]>
+    </content>
+    <tabTrigger>class</tabTrigger>
+    <scope>source.python</scope>
+    <description>Odoo Class Base</description>
+</snippet>

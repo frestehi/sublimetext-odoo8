@@ -1,0 +1,10 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+OpenERP Peru Community
+]]></content>
+    <tabTrigger>author</tabTrigger>
+    <scope>source.python</scope>
+    <description>OpenERP Italia Author</description>
+</snippet>
