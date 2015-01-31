@@ -1,0 +1,12 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[${1:reference_field_name} = fields.Reference(
+    '${2:Field Label}',
+    selection=${3:_get_function_fields}
+)$0
+]]></content>
+    <tabTrigger>fields.Reference</tabTrigger>
+    <scope>source.python</scope>
+    <description>reference field (OERP)</description>
+</snippet>

@@ -1,0 +1,10 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+translate=True,$0
+]]></content>
+    <tabTrigger>translate</tabTrigger>
+    <scope>source.python</scope>
+    <description>translate attribute (OERP)</description>
+</snippet>

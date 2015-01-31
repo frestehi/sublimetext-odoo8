@@ -1,0 +1,9 @@
+<!-- OpenERP Python Snippets -->
+
+<snippet>
+    <content><![CDATA[${1:data_field_name}: fields.Date('${2:Field Label}')$0
+]]></content>
+    <tabTrigger>fields.date</tabTrigger>
+    <scope>source.python</scope>
+    <description>data field (OERP)</description>
+</snippet>
